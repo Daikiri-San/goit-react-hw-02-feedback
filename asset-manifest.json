@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-02-feedback/static/css/main.dbb6457c.chunk.css",
+    "main.js": "/goit-react-hw-02-feedback/static/js/main.1547998e.chunk.js",
+    "main.js.map": "/goit-react-hw-02-feedback/static/js/main.1547998e.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-02-feedback/static/js/runtime-main.d87da01c.js",
+    "runtime-main.js.map": "/goit-react-hw-02-feedback/static/js/runtime-main.d87da01c.js.map",
+    "static/js/2.674ad10d.chunk.js": "/goit-react-hw-02-feedback/static/js/2.674ad10d.chunk.js",
+    "static/js/2.674ad10d.chunk.js.map": "/goit-react-hw-02-feedback/static/js/2.674ad10d.chunk.js.map",
+    "index.html": "/goit-react-hw-02-feedback/index.html",
+    "precache-manifest.c31199fe289967b1ca268a87e8487d5e.js": "/goit-react-hw-02-feedback/precache-manifest.c31199fe289967b1ca268a87e8487d5e.js",
+    "service-worker.js": "/goit-react-hw-02-feedback/service-worker.js",
+    "static/css/main.dbb6457c.chunk.css.map": "/goit-react-hw-02-feedback/static/css/main.dbb6457c.chunk.css.map",
+    "static/js/2.674ad10d.chunk.js.LICENSE": "/goit-react-hw-02-feedback/static/js/2.674ad10d.chunk.js.LICENSE",
+    "static/media/fonts.css": "/goit-react-hw-02-feedback/static/media/roboto-v20-latin-regular.60fa3c06.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d87da01c.js",
+    "static/js/2.674ad10d.chunk.js",
+    "static/css/main.dbb6457c.chunk.css",
+    "static/js/main.1547998e.chunk.js"
+  ]
+}
