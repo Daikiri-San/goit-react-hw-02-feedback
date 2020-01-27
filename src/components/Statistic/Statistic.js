@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Stats = styled.span`
+  display: block;
   margin-left: 3rem;
   font-size: 2.4rem;
   margin-bottom: 1rem;

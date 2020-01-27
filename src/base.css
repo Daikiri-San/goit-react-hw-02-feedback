@@ -1,9 +1,7 @@
 :root {
-  --secondary-font: 'Roboto-Medium', sans-serif;
-
   position: relative;
   box-sizing: border-box;
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   background-color: snow;
 }

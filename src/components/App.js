@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import Layout from './Layout';
-import Feedback from './Feedback';
+import Section from './Section';
 import Statistics from './Statistics';
-import '../css/fonts.css';
-import '../css/base.css';
+import FeedbackOptions from './FeedbackOptions';
+import Notification from './Notification';
+import '../base.css';
 
 const INITIAL_STATE = {
   good: 0,
   neutral: 0,
   bad: 0,
 };
+
+const FEEDBACK_TYPES = [
+  { id: 'id-1', type: 'good' },
+  { id: 'id-2', type: 'neutral' },
+  { id: 'id-3', type: 'bad' },
+];
 
 class App extends Component {
   state = {
@@ -43,14 +50,25 @@ class App extends Component {
 
     return (
       <Layout>
-        <Feedback cb={this.increment} />
-        <Statistics
-          good={good}
-          neutral={neutral}
-          bad={bad}
-          total={total}
-          positivePercentage={positivePercent}
-        />
+        <Section title="Please leave feedback">
+          <FeedbackOptions
+            options={FEEDBACK_TYPES}
+            onLeaveFeedback={this.increment}
+          />
+        </Section>
+        <Section title="Statistics">
+          {total === 0 ? (
+            <Notification message="No feedback given" />
+          ) : (
+            <Statistics
+              good={good}
+              neutral={neutral}
+              bad={bad}
+              total={total}
+              positivePercentage={positivePercent}
+            />
+          )}
+        </Section>
       </Layout>
     );
   }
