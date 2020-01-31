@@ -12,11 +12,7 @@ const INITIAL_STATE = {
   bad: 0,
 };
 
-const FEEDBACK_TYPES = [
-  { id: 'id-1', type: 'good' },
-  { id: 'id-2', type: 'neutral' },
-  { id: 'id-3', type: 'bad' },
-];
+const FEEDBACK_TYPES = ['good', 'neutral', 'bad'];
 
 class App extends Component {
   state = {

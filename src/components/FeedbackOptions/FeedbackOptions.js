@@ -27,8 +27,8 @@ const Button = styled.button`
 function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <>
-      {options.map(({ id, type }) => (
-        <Button key={id} type="button" onClick={() => onLeaveFeedback(type)}>
+      {options.map(type => (
+        <Button key={type} type="button" onClick={() => onLeaveFeedback(type)}>
           {type}
         </Button>
       ))}
